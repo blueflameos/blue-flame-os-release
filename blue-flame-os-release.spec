@@ -13,7 +13,7 @@
 Summary:	Blue Flame OS release files
 Name:		blue-flame-os-release
 Version:	29
-Release:	1%{dist}
+Release:	2%{dist}
 License:	MIT
 Group:		System Environment/Base
 Source0:	LICENSE
@@ -36,7 +36,7 @@ Provides:	system-release(%{version})
 #Requires:	fedora-repos-rawhide
 #Requires:	blue-flame-os-repos-rawhide
 Requires:	fedora-repos(%{version})
-Requires:	blue-flame-os-repos(%{version})
+Requires:	blue-flame-os-repos = %{version}
 Obsoletes:	blue-flame-os-release-rawhide <= 21-5
 BuildArch:	noarch
 Conflicts:	fedora-release
@@ -359,6 +359,9 @@ glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 %doc README.BlueFlameOS-Release-Notes
 
 %changelog
+* Fri Nov 16 2018 yucuf Sourani <youssef.m.sourani@gmail.com> - 29-2
+- Release 2
+
 * Fri Nov 16 2018 yucuf Sourani <youssef.m.sourani@gmail.com> - 29-1
 - Initial For BlueFlameOS 29
 
