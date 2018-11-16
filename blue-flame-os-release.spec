@@ -13,7 +13,7 @@
 Summary:	Blue Flame OS release files
 Name:		blue-flame-os-release
 Version:	29
-Release:	2%{dist}
+Release:	3%{dist}
 License:	MIT
 Group:		System Environment/Base
 Source0:	LICENSE
@@ -359,6 +359,9 @@ glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 %doc README.BlueFlameOS-Release-Notes
 
 %changelog
+* Fri Nov 16 2018 yucuf Sourani <youssef.m.sourani@gmail.com> - 29-3
+- Release 3
+
 * Fri Nov 16 2018 yucuf Sourani <youssef.m.sourani@gmail.com> - 29-2
 - Release 2
 
