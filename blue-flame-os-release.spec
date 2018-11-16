@@ -139,7 +139,7 @@ ln -s fedora-release $RPM_BUILD_ROOT/etc/system-release
 # Create the common os-release file
 install -d $RPM_BUILD_ROOT/usr/lib/os.release.d/
 cat << EOF >>$RPM_BUILD_ROOT/usr/lib/os.release.d/os-release-fedora
-NAME=Blue Flame OS
+NAME=BlueFlameOS
 VERSION="%{version} (%{release_name})"
 ID=blueflameos
 ID_LIKE=fedora
