@@ -1,5 +1,5 @@
 [org.gnome.shell]
-enabled-extensions = ['background-logo@fedorahosted.org', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'sound-output-device-chooser@kgshank.net', 'clipboard-indicator@tudmotu.com', 'dash-to-dock@micxgx.gmail.com', 'unlockDialogBackground@sun.wxg@gmail.com', 'netspeed@hedayaty.gmail.com', 'blyr@yozoon.dev.gmail.com', 'TopIcons@phocean.net', 'gTile@vibou','CoverflowAltTab@dmo60.de']
+enabled-extensions = ['background-logo@fedorahosted.org', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'sound-output-device-chooser@kgshank.net', 'clipboard-indicator@tudmotu.com', 'dash-to-dock@micxgx.gmail.com', 'unlockDialogBackground@sun.wxg@gmail.com', 'simplenetspeed@biji.extension', 'blyr@yozoon.dev.gmail.com', 'TopIcons@phocean.net', 'gTile@vibou','CoverflowAltTab@dmo60.de']
 favorite-apps = ['firefox.desktop', 'google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'rhythmbox.desktop', 'org.gnome.Software.desktop', 'org.gnome.gedit.desktop', 'org.github.yucefsourani.ArControlCenter.desktop','org.gnome.Screenshot.desktop']
 
 
