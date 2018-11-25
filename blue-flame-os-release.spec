@@ -99,6 +99,17 @@ Provides:	system-release-product
 Requires:	blue-flame-os-release = %{version}-%{release}
 # needed for captive portal support
 Requires:	NetworkManager-config-connectivity-fedora
+Requires:       gnome-shell-extension-clipboard-indicator
+Requires:       gnome-shell-extension-CoverflowAltTab
+#Requires:      gnome-shell-extension-arabiclangrun
+Requires:       gnome-shell-extension-sound-output-device-chooser
+Requires:       gnome-shell-extension-dash-to-dock
+Requires:       gnome-shell-extension-unlockDialogBackground
+Requires:       gnome-shell-extension-simple-net-speed
+Requires:       gnome-shell-extension-blyr
+Requires:       gnome-shell-extension-TopIcons
+Requires:       gnome-shell-extension-gTile
+#Requires:      gnome-shell-extension-mconnect
 Requires(post): /usr/bin/glib-compile-schemas
 Requires(postun): /usr/bin/glib-compile-schemas
 
