@@ -1,5 +1,5 @@
 %global release_name BlueFlameOS
-%global dist_version 29
+%global dist_version 30
 
 # This package defines the dist tag (see
 # https://fedoraproject.org/wiki/Packaging:DistTag).
@@ -12,21 +12,21 @@
 
 Summary:	Blue Flame OS release files
 Name:		blue-flame-os-release
-Version:	29
-Release:	5%{dist}
+Version:	30
+Release:	1%{dist}
 License:	MIT
 Group:		System Environment/Base
-Source0:	LICENSE
-Source1:	README.developers
-Source2:	README.BlueFlameOS-Release-Notes
-Source3:	README.license
-Source4:	80-server.preset
-Source5:	80-workstation.preset
-Source6:	85-display-manager.preset
-Source7:	90-default.preset
-Source8:	99-default-disable.preset
-Source9:	convert-to-edition.lua
-Source10:	org.gnome.shell.gschema.override
+Source0:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/LICENSE
+Source1:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/README.developers
+Source2:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/README.BlueFlameOS-Release-Notes
+Source3:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/README.license
+Source4:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/80-server.preset
+Source5:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/80-workstation.preset
+Source6:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/85-display-manager.preset
+Source7:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/90-default.preset
+Source8:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/99-default-disable.preset
+Source9:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/convert-to-edition.lua
+Source10:	https://raw.githubusercontent.com/blueflameos/blue-flame-os-release/master/org.gnome.shell.gschema.override
 Obsoletes:	redhat-release
 Provides:	redhat-release
 Provides:	system-release
@@ -370,6 +370,9 @@ glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 %doc README.BlueFlameOS-Release-Notes
 
 %changelog
+* Sun Feb 03 2019 yucuf Sourani <youssef.m.sourani@gmail.com> - 30-1
+- Version 30
+
 * Sun Nov 25 2018 yucuf Sourani <youssef.m.sourani@gmail.com> - 29-5
 - Release 5
 
